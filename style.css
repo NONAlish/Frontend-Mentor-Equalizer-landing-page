@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background: url('./assets/bg-main-desktop.png');
+}
+
+body>*{
+    font-family: "IBM Plex Sans";
+}
+
+svg, button{
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 300px;
+    margin-top: 62px;
+    width: 90rem;
+}
+
+.svg {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    margin-top: 0;
+}
+
+header .text {
+    width: 9.13081rem;
+    height: 2rem;
+    fill: #191826;
+}
+
+header .ring {
+    width: 19.5rem;
+    height: 29.25rem;
+}
+
+header h1 {
+    width: 60.4rem;
+    color: #191826;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: -0.0625rem;
+}
+
+header p {
+    color: #191826;
+    font-family: "IBM Plex Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    width: 51.5625rem;
+}
+
+header .main_text {
+    flex-direction: column;
+}
+
+main{
+    position: relative;
+    margin-top: 4rem;
+}
+
+main .iphone{
+    position: absolute;
+    width: 17.5rem;
+    height: 37.875rem;
+    z-index: 1;
+    margin-left: 7.38rem;
+    margin-top: 30px;
+}
+
+.black{
+    margin-top: 200px;
+    position: absolute;
+    width: 69.375rem;
+    height: 37.5rem;
+    flex-shrink: 0;
+    background-color: #191826;
+    border-radius: 0.75rem;
+}
+
+.main_ring{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 170px;
+    width: 19.5rem;
+    height: 29.25rem;
+    flex-shrink: 0;
+    margin-right: 10rem;
+}
+
+
+.premium{
+    position: absolute;
+    border-radius: 0.75rem;
+    background: #FA7453;
+    width: 27.875rem;
+    height: 39.0625rem;
+    flex-shrink: 0;
+    margin-left: 35.56rem;
+    margin-top: 18rem;
+    align-items: center;
+}
+
+.premium > h2{
+    margin: 0;
+    padding: 40px 0 0 40px;
+}
+
+.premium > p{
+    margin: 0;
+    padding: 40px 0 0 40px;
+}
+
+.premium h2{
+    color: #FCFAF9;
+    font-family: "IBM Plex Sans";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+    width: 20.8125rem;
+}
+
+.premium .premium_main_text{
+    color: #FCFAF9;
+    font-family: "IBM Plex Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    width: 20.8125rem;
+}
+.premium .price {
+    color: #FCFAF9;
+    font-family: "IBM Plex Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 160% */
+    letter-spacing: -0.0125rem;
+    display: flex;
+    width: 10.3125rem;
+    height: 3.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+.premium .price span{
+    color: #FCFAF9;
+    font-family: "IBM Plex Sans";
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; /* 80% */
+}
+
+.premium .apple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.8125rem;
+    height: 3.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+    background: #191826;
+    color: #FCFAF9;
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; /* 177.778% */
+    letter-spacing: -0.01125rem;
+    border: none;
+    margin-left: 56.5px;
+    margin-top: 46.5px;
+}
+
+.premium .apple:hover{
+    background-color: #66E2DC;
+}
+
+.premium .android{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.8125rem;
+    height: 3.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+    background: #FCFAF9;
+    color: #191826;
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; /* 177.778% */
+    letter-spacing: -0.01125rem;
+    border: none;
+    margin-left: 56.5px;
+    margin-top: 16px;
+}
+
+.premium .android:hover{
+    background-color: #FFB964;
+}
+
+.premium .btn_svg{
+    margin-right: 10px;
+}
+
+footer{
+    margin-top: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.lll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.treeple_svg{
+    display: flex;
+    gap: 20px;
+    width: 6.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+}
+
+.treeple_svg{
+    color: #191826;
+    font-family: "IBM Plex Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+    margin-right: 10rem;
+}
